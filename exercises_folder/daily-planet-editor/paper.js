@@ -36,7 +36,7 @@ for ( var i = 0 ; i < enemies.length ; i++ )
         isThereKryptonite = false;
     }
 
-    console.log ( whoWins ( isThereKryptonite , enemies [ i ] ) );
+    console.log ( whoWins ( isThereKryptonite , enemies [i] ) );
 }
 
 function howAttractedIsLoisLaneToMe ()
@@ -45,7 +45,7 @@ function howAttractedIsLoisLaneToMe ()
     return Math.floor (  ( Math.random () * 10 ) + 1 );
 }
 
-consol.log ( howAttractedIsLoisLaneToMe () ) ;
+console.log ( howAttractedIsLoisLaneToMe () ) ;
 
 var clarkKent = true;
 var superman = false;
@@ -59,9 +59,6 @@ while ( clarkKent )
 
     if (phoneBoothQuickChange >= 0.5 ) 
     {
-        var clarkKent = false;
-        var superman = true;
-
         console.log ( "Now I'm Superman!" );
     }
 }
